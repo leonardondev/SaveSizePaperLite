@@ -11,9 +11,6 @@ void recortar(unsigned int px, unsigned int py, std::string file_name){
      /*matriz bitmap*/
      bitmap_image image(file_name);
      
-     /*conversão para gray*/
-     image.convert_to_grayscale();
-
      unsigned int largura = image.width(); //390
      unsigned int altura = image.height(); //390
      

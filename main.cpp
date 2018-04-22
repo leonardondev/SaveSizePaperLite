@@ -4,7 +4,9 @@
 
 using namespace std;
 
+/*declaracao das funcoes*/
 void recortar(unsigned int px, unsigned int py, std::string file_name);
+
 
 int main(){
      unsigned int px;
